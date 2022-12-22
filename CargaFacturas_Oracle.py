@@ -39,7 +39,7 @@ except Exception as ex:
 
 ##INICIA CURSOR    
 
-df=pd.read_csv('C:\\Users\Kevin\Documents\KEVIN\PROYECTOS DEV\CARGA DATOS\DATA FILES\CARGA_CSV\FACTURAS_CSV_LIMPIO2.csv')
+df=pd.read_csv('C:\\...\FACTURAS_CSV_LIMPIO2.csv')
 
 try:    
      for index, row in df.iterrows(): #Recorre las lineas del csv
